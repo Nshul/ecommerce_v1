@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/cart.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/cart.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1 class="display-3">Your Cart</h1>
+    </div>
+    <div class="row">
+        <div class="col" id="Heading">
+            <ol class="list-group" id="Head-cart">
+                <li class="list-group-item row"><span class="col-1">Sno</span><span class="col-3">Item</span><span
+                        class="col-2">Price</span><span class="col-1 offset-1">Qty</span><span class="col-3 offset-1">Amount</span></li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="Item-name">
+            <ol class="list-group" id="item-list">
+                <li class="list-group-item row"><span class="col-3 offset-1">Sample Item</span><span
+                        class="col-2">xxxx</span><span class="col-3">y</span><span class="col-3">xxyxxyx</span></li>
+            </ol>
+        </div>
+    </div>
+    <!--<div class="col" id="Price">-->
+    <!--<ul class="list-group" id="price-list">-->
+    <!--<li class="list-group-item"><span>xxxxxx</span></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="col" id="Quantity">-->
+    <!--<ul class="list-group" id="quantity-list">-->
+    <!--<li class="list-group-item"><span>xxxxxx</span></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="col" id="Amount">-->
+    <!--<ul class="list-group" id="amount-list">-->
+    <!--<li class="list-group-item"><span>xxxxxx</span></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+
+    <div class="row">
+        <div class="col-5">
+            <span>Total:</span>
+        </div>
+        <div class="offset-4">
+            <span id="grand-total-amount"></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
